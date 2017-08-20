@@ -33,7 +33,7 @@ begin
           acapela_inline_query = message.query  # utiliser la query pour la transformer en message vocal.
         end
 
-        # Initialiser les cookies pour acapela si le fichier de cookies spécifié dans les arguments existe (fait a chaque query pour pouvoir update les cookies si le fichier a été mis à jour)
+        # Initialiser les cookies pour acapela si le fichier de cookies spécifié dans les arguments existe (fait a chaque query pour pouvoir mettre les cookies à jour si le fichier a été modifié)
         acapela_cookies = HTTP::CookieJar.new
         acapela_cookies.load(ARGV[1], :cookiestxt) if File.exist?(ARGV[1])
         # Initialisation de l'URL de requête ainsi que ses paramètres
