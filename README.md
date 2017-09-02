@@ -1,4 +1,4 @@
-x# antoinefromafar_bot
+# antoinefromafar_bot
  Un bot inline Telegram pour lire les messages avec la voix "AntoineFromAfar" de Acapela 
 
 utilisation: `./antoinefromafar_bot.rb [token de l'API de bots Telegram] [fichier de cookies]`
